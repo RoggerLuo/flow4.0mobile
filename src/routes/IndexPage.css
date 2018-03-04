@@ -1,0 +1,52 @@
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+
+
+
+
+
+.formContainer {
+    width: 400px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.response20Gap{
+    height: 20%;
+    width: 1px;
+}
+.normal {
+    font-family: Georgia, sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.welcome {
+    height: 328px;
+    background: url(../assets/yay.jpg) no-repeat center 0;
+    background-size: 388px 328px;
+}
+
+.list {
+    font-size: 1.2em;
+    margin-top: 1.8em;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.list code {
+    background: #f7f7f7;
+}

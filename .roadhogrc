@@ -1,0 +1,19 @@
+{
+  "entry": "src/index.js",
+  "publicPath": "/flow3/",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd-mobile", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd-mobile", "style": "css" }]
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/*
+::-webkit-input-placeholder !important{
+    color:red;
+}
+:-moz-placeholder !important{
+    color:red;
+}
+:-ms-input-placeholder !important{
+    color:red;
+}
+input[placeholder], [placeholder], *[placeholder] {   
+    color:red !important;   
+} */
+*{
+    // font-size: 30px;
+}
+tbody {
+    cursor: pointer;
+}
+body{
+    color:black;
+}
+.am-progress-bar{
+    background-color: white;
+}
